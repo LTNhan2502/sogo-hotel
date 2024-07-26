@@ -1,0 +1,71 @@
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%; /* Match width of the parent container */
+}
+
+.image-big{
+    border-radius: 10px;
+    max-height: 650px;
+}
+
+.image-small{
+    width: 150px; /* Adjust width of each small image */
+    height: 125px;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.shadow-inset-md{
+    border-radius: 9px;
+    background-color: #f2f2f2;
+    box-shadow: inset 1px 2px 4px rgba(255, 0, 0, 0.155) !important;
+}
+
+.selected{
+    border: 2px solid #0d6efd;
+    opacity: 1.2;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.modal-header {
+    display: flex;
+    align-items: center;
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.btn-edit i,
+.btn-close span {
+    font-size: 1.5em;
+}
+
+.btn-edit,
+.btn-close {
+    padding: 0.5em; 
+}
+
+.btn-edit:hover{
+    color: rgb(64, 64, 64);
+}
+
+.btn-self{
+    width: 43.6px;
+    height: 37.6px;
+}

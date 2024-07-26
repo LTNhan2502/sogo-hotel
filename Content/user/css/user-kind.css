@@ -1,0 +1,88 @@
+.rounded-table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.width {
+  min-width: 280px;
+  max-width: 280px;
+}
+
+.rounded-img {
+  border-radius: 10px;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 3px 4px 8px rgba(255, 0, 0, 0.155);
+}
+
+.text-line-through {
+  text-decoration: line-through;
+  font-size: small;
+}
+
+.image-container {
+  padding-right: 15px;
+  align-items: center;
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.image-wrapper {
+  border-radius: 10px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.image-big {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  max-width: 650px;
+  max-height: 434px;
+  object-fit: contain;
+}
+
+.img-big img{
+  border-radius: 10px;
+
+}
+
+.image-small {
+  width: 150px;
+  height: 125px;
+  border-radius: 10px;
+  opacity: 0.4;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.shadow-inset-md {
+  border-radius: 9px;
+  background-color: #f2f2f2;
+  box-shadow: inset 1px 2px 4px rgba(255, 0, 0, 0.155) !important;
+}
+
+.selected {
+  border: 2px solid #0d6efd;
+  opacity: 1.2;
+}
+
+.modal-dialog.modal-xl {
+  max-width: 90vw;
+}
+
+.modal-content {
+  border-radius: 10px;
+}
+
+.scrollable-column {
+  max-height: 80vh;
+  overflow-y: auto;
+  padding-right: 15px;
+}

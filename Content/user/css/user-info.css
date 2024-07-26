@@ -1,0 +1,380 @@
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 7% 10%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #ffffff;
+    width: 100%;
+    justify-content: center;
+}
+
+.form button {
+    align-self: flex-end;
+}
+
+.flex-column>label {
+    color: rgb(108, 117, 125);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.input {
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 98%;
+    height: 100%;
+}
+
+.inputForm {
+    display: flex;
+    align-items: center;
+    margin-top: -18px;
+    transition: 0.2s ease-in-out;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.inputForm:focus-within {
+    border: 1.5px solid #2d79f3;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.flex-row>div>label {
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+}
+
+.span {
+    font-size: 14px;
+    margin-left: 5px;
+    color: #2d79f3;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button-submit {
+    margin: 20px 0 10px 0;
+    background-color: #151717;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.button-submit:hover {
+    background-color: #252727;
+}
+
+.p {
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.btnn {
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    gap: 10px;
+    border: 1px solid #ededef;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.btnn:hover {
+    border: 1px solid #2d79f3;
+}
+
+.container-main {
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #fff;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.profile-info h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.profile-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.sidebar-menu .nav {
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-menu .nav-link{
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-menu button i {
+    margin-right: 10px;
+}
+
+.main-content {
+    width: 100%;
+    padding: 20px;
+}
+
+.settings-header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tabs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.tabs li {
+    margin-right: 20px;
+}
+
+.tabs li a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+    padding: 10px 0;
+    display: block;
+}
+
+.tabs li.active a {
+    border-bottom: 2px solid #007bff;
+}
+
+.notification {
+    background-color: #e9f7ff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.notification i {
+    margin-right: 10px;
+    color: #007bff;
+}
+
+.notification p {
+    margin: 0;
+    font-size: 14px;
+    color: #007bff;
+}
+
+.personal-info h2 {
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.birthday-select {
+    display: flex;
+    gap: 10px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+
+.btn-cancel {
+    background-color: #f0f0f0;
+}
+
+.btn-save {
+    background-color: #007bff;
+    color: #fff;
+}
+
+h2 {
+    margin: 10px 0 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form-group .label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="password"] {
+    position: relative;
+    padding-right: 30px;
+}
+
+.form-group .eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.toggle-switch {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.toggle-switch input {
+    margin-right: 10px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-group button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-group .save-btn {
+    background-color: #007bff;
+    color: #fff;
+    margin-left: 10px;
+}
+
+#otp-switch {
+    width: 20px;
+    height: 20px;
+}
+
+.delete-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.delete-account {
+    margin-top: 20px;
+    color: red;
+    /* text-align: center; */
+}
+
+.delete-group button{
+    height: 40px;
+}
+
+.btn-custom{
+    border-radius: 50px !important;
+    margin: 5px;
+}
+
+.text-dark{
+    color: dark !important;
+}
+
+.text-dark:hover{
+    color: rgb(255, 170, 52) !important;
+}
